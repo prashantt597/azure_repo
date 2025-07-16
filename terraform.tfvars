@@ -1,0 +1,12 @@
+resource_group_name = "my-rg"
+location            = "East US"
+vnet_name           = "my-vnet"
+subnet_name         = "my-subnet"
+address_space       = ["10.10.0.0/16"]
+subnet_prefix       = ["10.10.1.0/24"]
+public_ip_name      = "my-public-ip"
+nic_name            = "my-nic"
+vm_name             = "my-ubuntu-vm"
+vm_size             = "Standard_B1s"
+admin_username      = "adminuser"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
